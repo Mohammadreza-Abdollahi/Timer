@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #4535C1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.timer-sec{
+    width: 550px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #478CCF;
+    border-radius: 18px;
+    padding: 50px;
+}
+.timer-sec .timer-container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.timer-sec .timer-container .time-item{
+    width: 80px;
+    height: 80px;
+    background-color: #77E4C8;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.timer-sec .timer-container .time-item h1{
+    color: #12484d;
+}
+.timer-sec .timer-container .time-item h4{
+    color: #1b6f77;
+}
+.time-btns{
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.time-btns button{
+    margin: 0px 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #00eaff;
+    font-size: 18px;
+    transition: all .3s;
+    overflow: hidden;
+    cursor: pointer;
+}
+.time-btns button:hover{
+    letter-spacing: 4px;
+}
